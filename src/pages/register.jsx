@@ -4,7 +4,12 @@ import Add from "../img/addAvatar.png";
 const Register = () => {
   const handleSumbit = (e) => {
     e.preventDefault()
-    e.
+    const displayName = e.target[0].value;
+    const email = e.target[1].value;
+    const password = e.target[2].value;
+    const confirm_password = e.target[2].value;
+    const file = e.target[4].value;
+    
   }
   return (
     <div>
